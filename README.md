@@ -3,7 +3,7 @@
 **Installation :** 
 
 1. download https://github.com/anigrab/wp-anigrab/archive/installable.zip
-2. extract to  `wp-anigrab` 
+2. extract 
 3. move  `wp-anigrab`   to wordpress  `plugins/`  folder
 4. activate in  `wp-admin` 
 
