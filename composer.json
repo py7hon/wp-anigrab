@@ -13,7 +13,8 @@
     "require": {
         "jikan-me/jikan": "dev-master",
         "mustache/mustache": "dev-master",
-        "animelist/mal-api": "dev-master"
+        "animelist/mal-api": "dev-master",
+        "visavi/cleanup": "dev-master"
     },
     "autoload": {
         "psr-4": {

@@ -1,10 +1,11 @@
-[![Build Status](https://travis-ci.org/anigrab/wp-anigrab.svg?branch=master)](https://travis-ci.org/anigrab/wp-anigrab)
+[![Build Status](https://travis-ci.org/anigrab/wp-anigrab.svg?branch=installable)](https://travis-ci.org/anigrab/wp-anigrab)
 
 **Installation :** 
-```
-composer create-project ospek/wp-anigrab:dev-master path-to-wp-plugins/wp-anigrab
-```
-and activate it in  `wp-admin` 
+
+1. download https://github.com/anigrab/wp-anigrab/archive/installable.zip
+2. extract to  `wp-anigrab` 
+3. move  `wp-anigrab`   to wordpress  `plugins/`  folder
+4. activate in  `wp-admin` 
 
  **usage manual:** 
 

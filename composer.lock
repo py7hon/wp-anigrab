@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc134637c4e4a63b77d7f1565eabd770",
+    "content-hash": "6d12b0a10208cbfbacfd4cedc564aeb9",
     "packages": [
         {
             "name": "animelist/mal-api",
@@ -353,6 +353,47 @@
                 "psr"
             ],
             "time": "2017-06-28T15:35:32+00:00"
+        },
+        {
+            "name": "visavi/cleanup",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/visavi/cleanup.git",
+                "reference": "f8ed01de90a547aba5830f0e4b4e4fbc07be9227"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/visavi/cleanup/zipball/f8ed01de90a547aba5830f0e4b4e4fbc07be9227",
+                "reference": "f8ed01de90a547aba5830f0e4b4e4fbc07be9227",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "bin": [
+                "cleanup"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Grigorev",
+                    "email": "admin@visavi.net",
+                    "homepage": "http://visavi.net"
+                }
+            ],
+            "description": "Cleaning vendor directory",
+            "homepage": "http://visavi.net",
+            "keywords": [
+                "clean",
+                "composer",
+                "vendor"
+            ],
+            "time": "2017-10-24T13:48:37+00:00"
         }
     ],
     "packages-dev": [],
@@ -361,7 +402,8 @@
     "stability-flags": {
         "jikan-me/jikan": 20,
         "mustache/mustache": 20,
-        "animelist/mal-api": 20
+        "animelist/mal-api": 20,
+        "visavi/cleanup": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
