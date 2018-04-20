@@ -1,0 +1,23 @@
+{
+    "name": "ospek/wp-anigrab",
+    "description": "grab anime info and save to local wordpress post",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Am K",
+            "email": "amek_chesster@yahoo.com.hk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "jikan-me/jikan": "dev-master",
+        "mustache/mustache": "dev-master",
+        "animelist/mal-api": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ospek\\": "src/"
+        }
+    }
+}
